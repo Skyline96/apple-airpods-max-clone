@@ -62,5 +62,30 @@ onMounted(() => {
         </div>
       </div>
     </nav>
+
+    <header>
+      <!-- <div class="container w-[90%] h-screen mx-auto">
+        <div class="relative flex justify-center items-center h-full">
+          <img src="/images/hero_logo_xlarge.jpg" alt="" class="w-full absolute -z-10">
+          <img src="/images/hero_xlarge.png" alt="" class="h-full">
+        </div>
+      </div> -->
+      <!-- <div class="relative container w-[90%] mx-auto">
+        <div class="relative w-full h-0 pb-[52.7%]"></div>
+        <div class="absolute inset-0">
+          <img src="/images/hero_logo_xlarge.jpg" alt="" class="object-contain w-full h-full">
+        </div>
+        <div class="absolute inset-0">
+          <img src="/images/hero_xlarge.png" alt="" class="object-contain w-full h-full">
+        </div>
+      </div> -->
+      <div class="relative w-[90%] mx-auto">
+        <div class="relative w-full h-0 pb-[52.7%]"></div>
+        <div class="absolute inset-0 flex justify-center items-center">
+          <img src="/images/hero_logo_xlarge.jpg" alt="" class="absolute w-full mt-4">
+          <img src="/images/hero_xlarge.png" alt="" class="relative h-full mt-12">
+        </div>
+      </div>
+    </header>
   </div>
 </template>
