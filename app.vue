@@ -13,7 +13,7 @@ onMounted(() => {
 </script>
 <template>
   <div>
-    <nav>
+    <nav id="global-nav">
       <div class="container max-w-screen-lg px-6 mx-auto">
         <div class="flex justify-between text-xs text-black/80 font-medium">
           <a href="" class="leading-[44px] pr-2">
@@ -49,6 +49,10 @@ onMounted(() => {
             </svg>
           </a>
         </div>
+      </div>
+    </nav>
+    <nav id="product-nav" class="sticky top-0 z-20">
+      <div class="container max-w-screen-lg px-6 mx-auto">
         <div class="flex justify-between border-b border-black/15">
           <div class="brand">
             <a href="" class="text-xl font-semibold leading-[52px]">AirPods Max</a>
