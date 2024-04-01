@@ -51,7 +51,7 @@ onMounted(() => {
         </div>
       </div>
     </nav>
-    <nav id="product-nav" class="sticky top-0 z-20">
+    <nav id="product-nav" class="sticky top-0 z-20 bg-white/80 backdrop-saturate-[180%] backdrop-blur-[20px]">
       <div class="container max-w-screen-lg px-6 mx-auto">
         <div class="flex justify-between border-b border-black/15">
           <div class="brand">
