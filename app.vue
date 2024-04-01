@@ -90,6 +90,11 @@ onMounted(() => {
           <img src="/images/hero_xlarge.png" alt="" class="relative h-full mt-12">
         </div>
       </div>
+      <div class="relative max-w-[110ch] px-6 mx-auto text-center mb-40 pt-36">
+        <span class="text-3xl leading-tight font-semibold">Introducing AirPods Max — a perfect balance of
+          exhilarating high-fidelity audio and the effortless magic of AirPods. The ultimate personal listening
+          experience is here.</span>
+      </div>
     </header>
   </div>
 </template>
